@@ -21,9 +21,9 @@ export default class SiderDemo extends Component {
   handleOnSelect = (key) => {
     console.log(key)
   }
-  // getLeftMenu = (menu) => {
-  //   console.log(menu)
-  // }
+  getLeftMenu = (menu) => {
+    console.log(menu)
+  }
   render() {
     return (
       <Layout style={{ minHeight: '100vh' }}>
